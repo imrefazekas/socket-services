@@ -1,0 +1,50 @@
+{
+  "name": "socket-services",
+  "version": "1.3.1",
+  "description": "Exceptionally featureful RESTful web services middleware for Connect.",
+  "keywords": [
+    "connect",
+    "rest",
+    "restful",
+    "router",
+    "api"
+  ],
+  "homepage": "https://github.com/imrefazekas/socket-services",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imrefazekas/socket-services.git"
+  },
+  "bugs": {
+    "url": "http://github.com/imrefazekas/socket-services/issues"
+  },
+  "author": {
+    "name": "Imre Fazekas",
+    "email": "imre.fazekas@icloud.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/socket-services.js",
+  "dependencies": {
+    "clerobee": "latest",
+    "harcon": "latest",
+    "lodash": "latest",
+    "socket.io": "~1",
+    "winston": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "gulp": "latest",
+    "gulp-jshint": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-mocha": "latest",
+    "socket.io-client": "~1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "_id": "socket-services@1.3.1"
+}

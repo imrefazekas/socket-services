@@ -1,6 +1,6 @@
 {
   "name": "socket-services",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exceptionally featureful Websocket-based REST middleware",
   "keywords": [
     "websocket",
@@ -32,7 +32,6 @@
     "harcon": "latest",
     "lodash": "latest",
     "socket.io": "~1",
-    "socket.io-client": "~1",
     "winston": "latest"
   },
   "devDependencies": {
@@ -40,10 +39,11 @@
     "gulp": "latest",
     "gulp-jshint": "latest",
     "gulp-load-plugins": "latest",
-    "gulp-mocha": "latest"
+    "gulp-mocha": "latest",
+    "socket-services-client": "latest"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "_id": "socket-services@0.0.2"
+  "_id": "socket-services@0.0.3"
 }

@@ -2,7 +2,7 @@ var should = require("chai").should();
 
 var SocketServices = require('../lib/SocketServices');
 
-describe("connect-rest", function () {
+describe("socket-services", function () {
 	var socketServices;
 	before(function(done){
 		socketServices = new SocketServices();

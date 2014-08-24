@@ -1,13 +1,20 @@
 var should = require("chai").should();
 
-var Server = require('./Server');
+var SocketServices = require('../lib/SocketServices');
 
 describe("connect-rest", function () {
-	var server;
+	var socketServices;
 	before(function(done){
-		server = new Server();
+		socketServices = new SocketServices();
 
-		server.serve( done );
+		socketServices.connect( function(){
+			socketServices.publish( 'Tester', 'everything', function( data1, data2, callback ){
+				console.log( data1, data2 );
+				callback( null, 'Done.' );
+			} );
+
+			done();
+		});
 	});
 
 	describe("socket", function () {
@@ -17,6 +24,6 @@ describe("connect-rest", function () {
 	});
 
 	after(function(done){
-		server.close( function(){ console.log('Node stopped'); done(); } );
+		socketServices.close( function(){ console.log('Node stopped'); done(); } );
 	});
 });

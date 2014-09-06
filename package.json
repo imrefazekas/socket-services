@@ -1,6 +1,6 @@
 {
   "name": "socket-services",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Exceptionally featureful Websocket-based REST middleware",
   "keywords": [
     "websocket",
@@ -37,6 +37,7 @@
   "devDependencies": {
     "chai": "latest",
     "gulp": "latest",
+    "gulp-docco": "latest",
     "gulp-jshint": "latest",
     "gulp-load-plugins": "latest",
     "gulp-mocha": "latest",
@@ -45,5 +46,5 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "_id": "socket-services@0.1.0"
+  "_id": "socket-services@0.2.0"
 }

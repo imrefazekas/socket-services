@@ -1,6 +1,6 @@
 {
   "name": "socket-services",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Exceptionally featureful Websocket-based REST middleware",
   "keywords": [
     "websocket",
@@ -46,5 +46,5 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "_id": "socket-services@0.2.0"
+  "_id": "socket-services@0.2.1"
 }

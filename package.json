@@ -1,6 +1,6 @@
 {
   "name": "socket-services",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Exceptionally featureful Websocket-based REST middleware",
   "keywords": [
     "websocket",
@@ -30,7 +30,7 @@
   "dependencies": {
     "clerobee": "latest",
     "harcon": "latest",
-    "lodash": "latest",
+    "lodash": "~3",
     "socket.io": "~1",
     "winston": "latest"
   },
@@ -46,5 +46,5 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "_id": "socket-services@0.2.1"
+  "_id": "socket-services@0.2.2"
 }
